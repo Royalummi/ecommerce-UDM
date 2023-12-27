@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./button.css" />
+  <link rel="stylesheet" href="./card.css">
+  <link rel="icon" type="image/x-icon" href="/images/BG udm.webp">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <a href="#"><img src="Images/BG udm.webp" class="logo" alt="logo" height="80" /></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="shop.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag">
+        </li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <!-- <a href="cart.html"
+          ><i
+            class="fa-solid fa-cart-shopping fa-beat-fade"
+            style="color: #000000"
+          ></i
+        ></a> -->
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </header>
+
+  <section id="hero">
+    <h4>Get-Your-Card</h4>
+    <h2>Share contacts</h2>
+    <h1>With a tap</h1>
+    <p>
+      Unicorn Card is a revolutionary digital contact card that utilizes NFC
+      technology. With just a tap, you can share your details and make
+      connections like never before.
+    </p>
+    <button>Order Now</button>
+  </section>
+
+  <!-- <section id="feature" class="section-p1">
+    <div class="fe-box">
+      <img src="images/lifetime.png" alt="" />
+      <h6>LIFETIME MEMBERSHIP</h6>
+    </div>
+    <div class="fe-box">
+      <img src="images/custom.png" alt="" />
+      <h6>CUSTOMABLE</h6>
+    </div>
+    <div class="fe-box">
+      <img src="images/onetap.png" alt="" />
+      <h6>Save Money</h6>
+    </div>
+    <div class="fe-box">
+      <img src="images/qr-code.png" alt="" />
+      <h6>Promotions</h6>
+    </div>
+  </section> -->
+
+  <section class="bg-main hero-section pt-3 mb-5 why_choose section-p1" id="why_us">
+    <!-- <div class="container text-center common-title text-white">
+      <h2 class="common-heading fw-bold text-white">Why Choose Us</h2>
+      <p class="text-light-grey ms-5 me-5 ps-5 pe-5">
+        Delivering excellence with innovation, backed by over 5 years of unparalleled expertise and satisfaction of 100+ clients.
+      </p>
+    </div> -->
+   <div class="container">
+      <div class="container1">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="./images/udm3.webp" alt="...">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <div class="card-body text-white">
+                <h5 class="card-title text-center fs-4">Swift Delivery</h5>
+                <p class="card-text text-center fs-5">Your Solutions, Our Priority!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="./images/udm4.webp" class="market_img" alt="...">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <div class="card-body text-white">
+                <h5 class="card-title text-center fs-4">Market Pioneers</h5>
+                <p class="card-text text-center fs-5"> Leading the Way in Innovative Offerings.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="./images/udm5.webp" alt="...">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <div class="card-body text-white">
+                <h5 class="card-title text-center fs-4"> 5+ Years of Expertise</h5>
+                <p class="card-text text-center fs-5">Trust in Our Proven Track Record.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="./images/udm6.webp" alt="...">
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <div class="card-body text-white">
+                <h5 class="card-title text-center fs-4">100+ Satisfied Clients</h5>
+                <p class="card-text text-center fs-5">Your Success, Our Achievement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="product1" class="section-p1">
+    <h2>NFC Products</h2>
+    <p>Check our NFC products we have</p>
+    <div class="pro-container">
+      <div class="nft">
+        <div class="main">
+          <img class="tokenImage" src="./images/nfc/NFC Know Us.webp" alt="NFT" />
+          <h2>NFC business stand</h2>
+          <p class="description">
+          <ul>
+            <li><a href="#">Name Printing</a></li>
+            <li><a href="#">NFC Enabled</a></li>
+            <li><a href="#">QR Code Printed</a></li>
+            <li><a href="#">No Monthly Fees</a></li>
+          </ul>
+          </p>
+          <div class="tokenInfo">
+            <div class="price">
+              <ins><img src="./images/nfc/price.webp" alt="" height="30"></ins>
+              <p>15</p>
+            </div>
+            <div class="duration">
+              <ins><button class="pushable">
+                  <span class="front">
+                    Order Now
+                  </span>
+                </button></ins>
+            </div>
+          </div>
+          <hr />
+          <div class="creator">
+            <div class="wrapper">
+              <img src="./images/nfc/nfc.webp" alt="Creator" />
+            </div>
+            <p><ins>By</ins> Unicorn Digital Marketing</p>
+          </div>
+        </div>
+      </div>
+      <div class="nft">
+        <div class="main">
+          <img class="tokenImage" src="./images/nfc/NFC WiFi.webp" alt="NFT" />
+          <h2>Tap to connect (large)</h2>
+          <p class="description">
+          <ul>
+            <li><a href="#">Name Printing</a></li>
+            <li><a href="#">NFC Enabled</a></li>
+            <li><a href="#">QR Code Printed</a></li>
+            <li><a href="#">No Monthly Fees</a></li>
+          </ul>
+          </p>
+          <div class="tokenInfo">
+            <div class="price">
+              <ins><img src="./images/nfc/price.webp" alt="" height="30"></ins>
+              <p>25</p>
+            </div>
+            <div class="duration">
+              <ins><button class="pushable">
+                  <span class="front">
+                    Order Now
+                  </span>
+                </button></ins>
+            </div>
+          </div>
+          <hr />
+          <div class="creator">
+            <div class="wrapper">
+              <img src="./images/nfc/nfc.webp" alt="Creator" />
+            </div>
+            <p><ins>By</ins> Unicorn Digital Marketing</p>
+          </div>
+        </div>
+      </div>
+      <div class="nft">
+        <div class="main">
+          <img class="tokenImage" src="./images/nfc/NFC WiFi 2.webp" alt="NFT" />
+          <h2>Tap to connect (small)</h2>
+          <p class="description">
+          <ul>
+            <li><a href="#">Name Printing</a></li>
+            <li><a href="#">NFC Enabled</a></li>
+            <li><a href="#">QR Code Printed</a></li>
+            <li><a href="#">No Monthly Fees</a></li>
+          </ul>
+          </p>
+          <div class="tokenInfo">
+            <div class="price">
+              <ins><img src="./images/nfc/price.webp" alt="" height="30"></ins>
+              <p>15</p>
+            </div>
+            <div class="duration">
+              <ins><button class="pushable">
+                  <span class="front">
+                    Order Now
+                  </span>
+                </button></ins>
+            </div>
+          </div>
+          <hr />
+          <div class="creator">
+            <div class="wrapper">
+              <img src="./images/nfc/nfc.webp" alt="Creator" />
+            </div>
+            <p><ins>By</ins> Unicorn Digital Marketing</p>
+          </div>
+        </div>
+      </div>
+      <div class="nft">
+        <div class="main">
+          <img class="tokenImage" src="./images/nfc/NFC Parking.webp" alt="NFT" />
+          <h2>NFC paraking</h2>
+          <p class="description">
+          <ul>
+            <li><a href="#">Name Printing</a></li>
+            <li><a href="#">NFC Enabled</a></li>
+            <li><a href="#">QR Code Printed</a></li>
+            <li><a href="#">No Monthly Fees</a></li>
+          </ul>
+          </p>
+          <div class="tokenInfo">
+            <div class="price">
+              <ins><img src="./images/nfc/price.webp" alt="" height="30"></ins>
+              <p>1.5</p>
+            </div>
+            <div class="duration">
+              <ins><button class="pushable">
+                  <span class="front">
+                    Order Now
+                  </span>
+                </button></ins>
+            </div>
+          </div>
+          <hr />
+          <div class="creator">
+            <div class="wrapper">
+              <img src="./images/nfc/nfc.webp" alt="Creator" />
+            </div>
+            <p><ins>By</ins> Unicorn Digital Marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><a href="./shop.html">
+      <button class="white btn_more">See More &#8594;</button>
+    </a>
+    </div>
+  </section>
+
+  <section id="banner" class="section-m1">
+    <h4>Make Yourself Contactless</h4>
+    <h2>Latest <span>NFC</span> - Products</h2>
+    <button class='glowing-btn'><span class='glowing-txt'>OR<span class='faulty-letter'>DE</span>R N<span
+          class='faulty-letter'>O</span>W</span></button>
+  </section>
+
+  <!-- <section id="product1" class="section-p1">
+      <h2>New Arrivals</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/products/n1.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n2.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n3.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n4.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n5.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n6.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n7.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n8.jpg" alt="" />
+          <div class="des">
+            <span>addias</span>
+            <h5>Cartoon Astronaut T-shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="cart"
+            ><i class="fa-solid fa-cart-plus fa-flip"></i
+          ></a>
+        </div>
+      </div>
+    </section> -->
+
+  <section id="sm-banner" class="section-p1">
+    <div class="banner-box">
+      <h4>Unbelievable Offers!</h4>
+      <h2>Grab 2 for the Price of 1!</h2>
+      <span>Unlock exclusive benefits with our premium NFC card </span>
+      <button class="white">Get it Now</button>
+    </div>
+    <div class="banner-box banner-box2">
+
+      <h4>Unlock Limitless Possibilities</h4>
+      <h2>Your Gateway to Exclusive Experiences</h2>
+      <span>Experience the best in convenience and access with our NFC card </span>
+      <button class="white">Order Now</button>
+    </div>
+  </section>
+
+  <!-- <section id="banner3">
+    <div class="banner-box">
+      <h2>SEASONAL SALE</h2>
+      <h3>Winter Collection -50% OFF</h3>
+    </div>
+    <div class="banner-box banner-box2">
+      <h2>NEW FOOTWEAR COLLECTION</h2>
+      <h3>Spring / Summer 2022</h3>
+    </div>
+    <div class="banner-box banner-box3">
+      <h2>T-SHIRTS</h2>
+      <h3>New Trendy Prints</h3>
+    </div>
+  </section> -->
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Future Updates</h4>
+      <p>
+        Get E-mail updates about our latest shop and
+        <span> special offers</span>.
+      </p>
+    </div>
+    <div class="form1">
+      <input type="email" id="email" placeholder="Your email address" />
+      <button class="normal" onclick="sendemailmail()">Sign Up</button>
+    </div>
+  </section>
+
+  <section class="popup">
+    <div id="popup">
+      <span id="close-btn" onclick="closePopup()">X</span>
+      <h2>Fill out the form to get your card now</h2>
+      <div action='' class='form'>
+        <p class='field required'>
+          <label class='label required' for='name'>Full name</label>
+          <input class='text-input' id='name' name='name' required type='text' value='Use Tab'>
+        </p>
+        <p class='field required half'>
+          <label class='label' for='email'>E-mail</label>
+          <input class='text-input' id='email' name='email' required type='email'>
+        </p>
+        <p class='field required half'>
+          <label class='label' for='phone'>Phone</label>
+          <input class='text-input' id='phone' name='phone' required type='phone'>
+        </p>
+        <p class='field'>
+          <label class='label' for='about'>Message</label>
+          <textarea class='textarea' cols='50' id='about' name='about' rows='4'></textarea>
+        </p>
+        <p class='field required half'>
+          <label class='label' for='select'>Select Card</label>
+          <select required class='select' id='select'>
+            <option selected value=''></option>
+            <option value='nfc-card'>NFC CARD</option>
+            <option value='nfc-business-card'>NFC Business Card</option>
+            <option value='tap-to-connect-large'>Tap to Connect Large</option>
+            <option value='tap-to-connect-small'>Tap to Connect Small</option>
+            <option value='nfc-parking'>NFC Parking</option>
+            <option value='nfc-review-nfc-card'>NFC Review NFC card</option>
+            <option value='nfc-review-nfc-stand'>NFC Review NFC Stand</option>
+            <option value='nfc-ring'>NFC Ring</option>
+          </select>
+        </p>
+        <p class='field half'>
+          <button class='button normal' onclick="sendEmail()">Submit</button>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="images/BG udm.webp" alt="" height="80" />
+      <h4>Contact</h4>
+      <p>
+        <strong>Address:</strong> Building: 1113B, Road: 2827, Al Saqiyyah 328, Kingdom of Bahrain, CR: 169638-1
+      </p>
+      <p><strong>Phone:</strong> <a href="tel:+973 66370828"> +973 66370828 </a> / <a href="tel:+973 33900828"> +973 33900828 </a></p>
+      <p><strong>Email:</strong> mail@unicorndigitalmarketing.in</p>
+      
+    </div>
+    <div class="col">
+      <h4>Menu</h4>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Products</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="col">
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <a href="https://www.linkedin.com/company/unicorn-digital-marketing-bahrain/about/?viewAsMember=true" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://instagram.com/unicorn_digital_marketing_bh?igshid=bW5wamg2d2Zkb2cy" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2023, Unicorn digital Marketing</p>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      let name = document.getElementById('name').value;
+      let email = document.getElementById('email').value;
+      let subject = document.getElementById('phone').value;
+      let message = document.getElementById('about').value;
+      let card = document.getElementById('select').value;
+  
+      // Basic form validation
+      if (!name || !email || !subject || !card) {
+        alert("Please fill out fields");
+        return;
+      }
+  
+      console.log(name, email, subject, message, card);
+  
+      let body = `name: ${name} \n <br> email: ${email} \n <br> subject: ${subject} \n <br> message: ${message} \n <br> card: ${card}`;
+  
+      Email.send({
+        SecureToken: "ade79e53-a442-45d5-97d9-982a6b625b69",
+        To : 'contact@unicorndigitalmarketing.in',
+        From : 'contact@unicorndigitalmarketing.in',
+        Subject : "Enquiry for NFC Card",
+        Body : body
+      }).then(
+        message => {
+          alert("Your email has been sent");
+          // Reload the page
+          location.reload();
+        }
+      );
+    }
+  </script>
+  <script>
+    function sendemailmail() {
+      let email = document.getElementById('email').value;
+  
+      // Basic form validation
+      if (!email) {
+        alert("Please fill out field");
+        return;
+      }
+  
+      let body = `email: ${email}`;
+  
+      Email.send({
+        SecureToken: "ade79e53-a442-45d5-97d9-982a6b625b69",
+        To : 'contact@unicorndigitalmarketing.in',
+        From : 'contact@unicorndigitalmarketing.in',
+        Subject : "Enquiry for NFC Card",
+        Body : body
+      }).then(
+        message => {
+          alert("Your email has been sent");
+          // Reload the page
+          location.reload();
+        }
+      );
+    }
+  </script>
+</body>
+
+</html>
